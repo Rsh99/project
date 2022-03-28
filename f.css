@@ -1,0 +1,61 @@
+#panel {
+    max-width: 350px;
+  }
+  
+  #deck {
+    background-image: url("paper.gif");
+    background-color: #cccccc;
+    max-width: 780px;
+    margin: auto;
+    padding: 50px 20px;
+    min-height: 700px;
+    box-shadow: 12px 15px 10px 0 rgb(46 61 73 / 50%);
+  }
+  
+  .card {
+    width: 22.5%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 8, 156);
+    font-size: 0;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0 rgba(139, 151, 161, 0.5);
+  }
+  
+  .open {
+    background-color: rgb(31, 52, 168);
+    cursor: default;
+    font-size: 5rem;
+    color: rgb(32, 146, 32);
+  }
+  
+  .match {
+    cursor: default;
+    background-color: #9be38e;
+    font-size: 5rem;
+  }
+  
+  .win {
+    text-align: center;
+    color: green;
+  }
+  
+  @media (max-width: 780px) {
+    .card {
+      width: 20.5%;
+      height: 125px;
+    }
+  }
+  
+  @media (max-width: 340px) {
+    #deck {
+      padding: 10px;
+    }
+    .card {
+      width: 18%;
+    }
+  }
+  
