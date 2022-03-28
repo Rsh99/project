@@ -4,7 +4,7 @@
   
   #deck {
     background-image: url("paper.gif");
-    background-color: #cccccc;
+    background-color: #14911a;
     max-width: 780px;
     margin: auto;
     padding: 50px 20px;
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(8, 8, 156);
+    background-color: rgb(53, 173, 23);
     font-size: 0;
     cursor: pointer;
     border-radius: 10px;
@@ -26,10 +26,10 @@
   }
   
   .open {
-    background-color: rgb(31, 52, 168);
+    background-color: rgb(53, 61, 99);
     cursor: default;
     font-size: 5rem;
-    color: rgb(32, 146, 32);
+    color: rgb(52, 63, 83);
   }
   
   .match {
@@ -40,7 +40,7 @@
   
   .win {
     text-align: center;
-    color: green;
+    color: rgb(26, 192, 26);
   }
   
   @media (max-width: 780px) {
